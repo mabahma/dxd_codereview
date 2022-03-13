@@ -145,7 +145,7 @@ Code Documented | PASS
 
 The project does not provide detailed documentation but README.md has sufficient usage instructions for the  2 implemented RPC methods.
 There is one Example folder with codes for doing examples.
-This is acceptable since the project is its beginning.
+This is acceptable since the project is in its beginning.
 
 **For next milestones, OP is encouraged to provide more documentation on how to use the SDK, along with sample codes for using critical SDK functions**
 
