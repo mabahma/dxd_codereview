@@ -38,7 +38,7 @@ The reviewer was also able to load the whole project into Xcode IDE and successf
 
 ## Overall Impression of usage testing
 
-The reviewer was able to build the project following the instructions given in the README file and using and Xcode IDE.
+The reviewer was able to build the project following the instructions given in the README file and using an Xcode IDE.
 The documentation provides sufficient installation/build instructions.
 
 **However, despite the build being successful, the build console shows a lot of warnings that can indicate  potential problems in the code or in the libraries used by the SDK.
