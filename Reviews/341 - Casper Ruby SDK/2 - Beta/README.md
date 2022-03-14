@@ -272,7 +272,7 @@ Usage Documented | PASS with Notes
 ## Overall Conclusion on Documentation
 
 In the reviewer's opinion, the project and usage documentation are not sufficient.
-**The OP is thus is encouraged to provide detailed documentation both on the general usage of the sdk and also at the level source code documentation.**
+**The OP is thus is encouraged to provide detailed documentation both on the general usage of the sdk and also at the level of source code documentation.**
 
 # Open Source Practices
 
