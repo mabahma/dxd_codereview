@@ -59,7 +59,7 @@ able to  :
 
 * Install Ruby on Rails on a Ubuntu 20.04 cloud server (https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04)
 
-* Install all the  ruby dependencies (gems) required by the SDK
+* Install all  Ruby dependencies (gems) required by the SDK
 
 ```bash
 [root@citools ~]#bundle install
@@ -126,7 +126,7 @@ Successfully installed casper_network-0.2.0
 ````
 
 ## Overall Impression of usage testing
-The documentation provides clear and sufficient instructions to build and install the ruby sdk bundle.
+The documentation provides clear and sufficient instructions to build and install the Ruby sdk bundle.
 However, the documentation does not give details about the version of Ruby language used to develop and test the SDK (the reviewer installed version 3.0.2 by default).
 After building the project ,the reviewer was unable to run the code example provided in the repository main page (https://github.com/saitgulmez/casper-ruby-sdk/tree/milestone-2#usage-examples):
 
@@ -192,6 +192,8 @@ Project functionality meets/exceeds acceptance criteria and operates without err
 
 The project has 57 tests. The reviewer checked that all the RPC calls have at least one positive path test.
 
+* Example of positive path test for RPC call : state_get_dictionary_item
+
 ```ruby
 
   describe "#state_get_dictionary_item" do
@@ -227,6 +229,8 @@ Finished in 0.03654 seconds (files took 1.13 seconds to load)
 
 The reviewer was able to check the presence of some negative path tests:
 
+* Example of negative path test for RPC call : info_get_deploy
+
 ```ruby
  context "When info_get_deploy is called with an empty deploy hash parameter" do
       deploy = client.info_get_deploy("")
@@ -238,7 +242,7 @@ The reviewer was able to check the presence of some negative path tests:
     end
 ```
 
-The reviewer encourages the OP to add more of these negative path tests.
+**The reviewer encourages the OP to add more negative path tests and generally to increase test code coverage for the next milestones.**
 
 Requirement | Finding
 ------------ | -------------
@@ -251,18 +255,18 @@ Unit Tests - Additional path tests | PASS with Notes
 ### Code Documentation
 
 The code is documented in a very minimalist way, only a few classes and functions are provided with code-level documentation.
-Since the project is in its early stage and does not contain much code yet, the reviewer strongly recommends documenting the SDK code.
+Since the project is in its early stages and does not contain much code yet, **The reviewer strongly recommends adding proper and sufficient code documentation for the next milestones.**
 
 Requirement | Finding
 ------------ | -------------
 Code Documented | PASS with notes
 
 ### Project Documentation
-The project does not provide detailed SDK documentation. The sample code provided in the Readme does not work and needs to be changed.
+The project does not provide detailed SDK documentation. The sample code provided in the README file does not work and needs to be changed.
 The only documentation available is the one the user can generate with the commands provided in the README file.
 The reviewer was able to generate and view this documentation on this link: https://htmlpreview.github.io/?https://raw.githubusercontent.com/saitgulmez/casper-ruby-sdk/milestone-2/doc/index.html .
-There is no step-by-step guide on how to write ruby code using the SDK.
-It is strongly recommended to add a well-supplied and detailed documentation for the next milestones.
+There is no step-by-step guide and usage examples on how to write Ruby code using the SDK.
+**It is strongly recommended to add a well-supplied and detailed documentation for the next milestones.
 
 Requirement | Finding
 ------------ | -------------
