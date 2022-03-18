@@ -216,7 +216,7 @@ The project has 57 tests. The reviewer checked that all the RPC calls have at le
 ```
 
 
-However, the reviewer had  observed that the tests run without a logging utility that would allow to see the actual progress of the tests and what functions are being tested. 
+**However, the reviewer had  observed that the tests run without a logging utility that would allow to see the progress of the tests (while running) and what functions are being tested.** 
 The tests run successfully, without errors and produce the following output:
 
 ```bash
