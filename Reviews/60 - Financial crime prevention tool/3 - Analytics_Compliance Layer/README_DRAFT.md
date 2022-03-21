@@ -57,11 +57,11 @@ https://github.com/syntifi/ori/tree/main/ori-dashboard | 118a181
 # Install & Usage Testing Procedure and Findings
 
 Following the instructions in the README file of the repositoty : https://github.com/syntifi/ori and the file provided as a guide for this milestone
+https://github.com/syntifi/ori/blob/main/TLDR-CSPR.md
 
-https://github.com/syntifi/ori/blob/main/TLDR-CSPR.md, the reviewer was
-able to :
+the reviewer was able to :
 
-0- Install required dependencies on an Ubuntu 20.04 cloud server:
+1- Install required dependencies on an Ubuntu 20.04 cloud server:
 
 ```console
 Java 11 or above
@@ -71,7 +71,7 @@ Docker compose (version 1.29.2 or above)
 Node.js (>=14.0.0) 
 ```
 
-1. Test and build the project on an Ubuntu 20.04 cloud server
+2. Test and build the project on an Ubuntu 20.04 cloud server
 
 ```bash
 ~/reviews/ori$ ./mvnw clean compile
@@ -82,7 +82,7 @@ Output : [60-3 clean-compile](assets/build.md "build")
 
 
 
-2. Build libs, jars and images
+3. Build libs, jars and images
 
 ```bash
 ~/reviews/ori$ ./mvnw package -DskipTests
@@ -91,13 +91,13 @@ Output : [60-3 clean-compile](assets/build.md "build")
 Output:  [60-3 package](assets/build_libs.md "build_libs")
 
 
-3. Create a docker network ori
+4. Create a docker network ori
 
 ```bash
 ~/reviews/ori$ docker network create ori
 ```
 
-4. Start postgresql and api modules (docker images)
+5. Start postgresql and api modules (docker images)
 
 ```bash
 ~/reviews/ori$ docker-compose -f ./ori-api/src/main/docker/docker-compose-jvm.yml up -d
@@ -115,7 +115,7 @@ docker_ori-api_1          /deployments/run-java.sh        Up      0.0.0.0:8080->
 docker_ori-postgresql_1   docker-entrypoint.sh postgres   Up      0.0.0.0:5432->5432/tcp,:::5432->5432/tcp
 ```
 
-5. Launch the crawler for CSPR chain
+6. Launch the crawler for CSPR chain
 
 ```bash
 ~/reviews/ori$ docker-compose -f ./ori-chains/ori-cspr/src/main/docker/docker-compose.yml up -d
@@ -142,13 +142,13 @@ The crawler retrieves all the blocks, accounts and transactions of the CSPR chai
 The OP also offered the alternative to use an image with a database containing only recent blocks.
 the reviewer wanted to make sure that the crawler completed the whole process of populating the data without errors.
 
-6. Access the front-end
+7. Access the front-end
 
 The reviewer was able to check that the front end webapp is up and running.
 He could then access it using the url : http://server_ip_address:8080
 ![front_end](assets/front_end.png "front_end")
 
-7. Check the database was populated 
+8. Check the database was populated 
 
 The reviewer used  pgAdmin program to check the datas was successfully injected by the crawling process :
 He verified 3 main tables :
@@ -186,7 +186,6 @@ docker_dashboard_1   sh ./docker/entrypoint.sh   Up (healthy)   0.0.0.0:8088->80
 
 
 
-
 ### Testing the dashboard
 
 This review focuses on the dashboard part.
@@ -220,7 +219,8 @@ The page displays a chart representing the coin flows (limited to 100 rows) and 
 - Total amount
 - Total transactions
 
-### Filtering
+
+#### Filtering
 
 The reviewer was able to filter datas using :
 
@@ -242,7 +242,7 @@ The dashboard was successfully loaded with all the transactions having this acco
 ![filter2](assets/dashboard/transaction_monitor_3.png "filter2")
 
 
-### Adding filters
+#### Adding filters
 
 The dashboard offers teh possibility to add to the fields used to filter transaction datas.
 The reviewer was able to add a new filter on the amount of transaction. 
