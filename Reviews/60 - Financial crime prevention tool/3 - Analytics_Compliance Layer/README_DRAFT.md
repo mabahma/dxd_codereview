@@ -384,6 +384,7 @@ Code is generally well-structured and readable. The project has been committed t
 The project provides the functionality described in the grant application and milestone acceptance criteria. 
 **The reviwers spent a significant amount of time understanding the usefulness of the project and the its features.
 The reviewer thus draws the OP's attention to the need to improve the general documentation of the project and its modules during the next milestones.**
+
 In the reviewer's opininon, this submission should PASS with Notes
 
 # Recommendation
