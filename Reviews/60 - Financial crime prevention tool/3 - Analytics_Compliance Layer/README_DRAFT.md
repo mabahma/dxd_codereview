@@ -460,7 +460,7 @@ The page displays a chart representing the coin flows (limited to 100 rows) and 
 - Total amount
 - Total transactions
 
-###Filtering
+### Filtering
 
 The reviewer was able to filter datas using :
 
@@ -482,7 +482,7 @@ The dashboard was successfully loaded with all the transactions having this acco
 ![filter2](assets/dashboard/transaction_monitor_3.png "filter2")
 
 
-###adding filters
+### Adding filters
 
 The dashboard offers teh possibility to add to the fields used to filter transaction datas.
 The reviewer was able to add a new filter on the amount of transaction. 
