@@ -377,33 +377,17 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-TODO
-
-Code is generally well-structured and very readable. The project as committed to GitHub cannot be run without finding the hidden workaround
-of installing the Casper SDK Jar from file, nor can it properly be tested without spending hours of trial-and-error to infer
-proper testing routes, parameter formats, etc. 
+Code is generally well-structured and readable. The project has been committed to GitHub and all 107 unit tests pass.
 
 # Final Conclusion
 
-TODO
-
 The project provides the functionality described in the grant application and milestone acceptance criteria. 
+**The reviwers spent a significant amount of time understanding the usefulness of the project and the its features.
+The reviwers thus draws the OP's attention to the need to improve the general documentation of the project and its modules during the next milstones.**
 
-The deliverable falls short in the following areas:
-* Documentation
-
-For a project of this magnitude, in both scope and cost, strict adherence to the minimal standards should be enforced, and therefore, it is this Reviewer's 
-opinion that this milestone submission should fail, until the identified shortcomings are addressed. I do believe these are easily addressed, and I look forward
-to reviewing the milestone again in the near future to re-assess my recommendation. Specifically, I believe the following items are critical to pass this review:
-
-- Update the project documentation to ensure that someone who installs the listed pre-requisites and subsequently follows the outlined steps, ends up
-with a working project 100% of the time.
-- Update the project documenation to make clear how to use the project (e.g. upon completion of set-up, run initial synchronization before using the APIs)
-- Update the API documentation with a description of the functionality of each endpoint, and an example value for each parameter from which the format can be inferred
-- Improve the inline code documentation
 
 # Recommendation
 
-Recommendation | 
+Recommendation | PASS with Notes
 ------------ | -------------
 
