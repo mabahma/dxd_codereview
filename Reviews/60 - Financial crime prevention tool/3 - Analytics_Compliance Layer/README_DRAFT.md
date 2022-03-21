@@ -78,7 +78,7 @@ Node.js (>=14.0.0)
 
 ```
 
-[60-3 clean-compile](assets/build.md "build")
+Output : [60-3 clean-compile](assets/build.md "build")
 
 
 
@@ -88,9 +88,7 @@ Node.js (>=14.0.0)
 ~/reviews/ori$ sudo ./mvnw package -DskipTests
 ```
 
-Output: 
-
-[60-3 package](assets/build_libs.md "build_libs")
+Output:  [60-3 package](assets/build_libs.md "build_libs")
 
 
 3. Create a docker network ori
@@ -404,6 +402,6 @@ with a working project 100% of the time.
 
 # Recommendation
 
-Recommendation | FAIL (request for improvements)
+Recommendation | 
 ------------ | -------------
 
