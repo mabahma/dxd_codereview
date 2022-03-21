@@ -337,7 +337,7 @@ A commendable effort has been made to document the project code following the re
 
 Requirement | Finding
 ------------ | -------------
-Low level function documentation | PASS
+Code documentation | PASS
 
 ### Project Documentation
 
@@ -348,14 +348,12 @@ The OP could add a diagram (simple package uml diagram) illustrating the links b
 
 Requirement | Finding
 ------------ | -------------
-Sufficient Project Documentation | PASS with Notes
+Project Documentation | PASS with Notes
 
 
 ## Overall Conclusion on Documentation
 
-TODO
-
-Given the number of FAILs above, the overall conclusion has to be that this project falls short of the expected level of documentation.
+In the reviewer's opinion, the project and usage documentation are sufficient. The OP is encouraged to provide detailed documentation  on the general usage of the project and its different modules.
 
 # Open Source Practices
 
