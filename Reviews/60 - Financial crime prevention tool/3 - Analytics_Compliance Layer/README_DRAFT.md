@@ -523,6 +523,7 @@ The reviewer increased the 'Row limit' filter from 100  10000 rows (transaction 
 ![charts5](assets/dashboard/charts_5.png "charts5")
 
 3.2 Adding new charts
+
 The tool offers the possibility of adding many types of charts to explore transaction datas.
 
 ![charts6](assets/dashboard/charts_6.png "charts6")
