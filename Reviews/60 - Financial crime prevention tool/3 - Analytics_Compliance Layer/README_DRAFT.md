@@ -3,7 +3,7 @@ Grant Proposal | [60 - Financial crime prevention and risk intelligence on-chain
 Milestone | 3
 Milestone Title | Analytics/Compliance Layer
 OP | Aberto
-Reviewer | Mickael Growet
+Reviewer | Mikael  Grouwet <m.grouwet@gmail.com>
 
 
 
