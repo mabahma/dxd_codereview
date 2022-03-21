@@ -1,3 +1,4 @@
+```bash
 ~/reviews/ori$ sudo ./mvnw test
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
@@ -443,3 +444,4 @@ Find out more about deployment here:
 [INFO] Total time:  01:11 min
 [INFO] Finished at: 2022-03-21T10:58:18+01:00
 [INFO] ------------------------------------------------------------------------
+```
