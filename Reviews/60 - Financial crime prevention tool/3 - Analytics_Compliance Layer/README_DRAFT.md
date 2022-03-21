@@ -103,10 +103,10 @@ Node.js (>=14.0.0)
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO]
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ ori-shared ---
-[INFO] Deleting /home/abahmane/reviews/ori/ori-shared/target
+[INFO] Deleting /home/user/reviews/ori/ori-shared/target
 [INFO]
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (prepare-agent) @ ori-shared ---
-[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/abahmane/reviews/ori/ori-shared/target/jacoco.exec
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/user/reviews/ori/ori-shared/target/jacoco.exec
 [INFO]
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ ori-shared ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -115,17 +115,17 @@ Node.js (>=14.0.0)
 [INFO]
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ori-shared ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 6 source files to /home/abahmane/reviews/ori/ori-shared/target/classes
+[INFO] Compiling 6 source files to /home/user/reviews/ori/ori-shared/target/classes
 [INFO]
 [INFO] ------------------< com.syntifi.ori:ori-risk-metric >-------------------
 [INFO] Building ori-risk-metric 0.1.0-SNAPSHOT                           [3/11]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO]
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ ori-risk-metric ---
-[INFO] Deleting /home/abahmane/reviews/ori/ori-risk-metric/target
+[INFO] Deleting /home/user/reviews/ori/ori-risk-metric/target
 [INFO]
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (prepare-agent) @ ori-risk-metric ---
-[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/abahmane/reviews/ori/ori-risk-metric/target/jacoco.exec
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/user/reviews/ori/ori-risk-metric/target/jacoco.exec
 [INFO]
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ ori-risk-metric ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -134,14 +134,14 @@ Node.js (>=14.0.0)
 [INFO]
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ori-risk-metric ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 1 source file to /home/abahmane/reviews/ori/ori-risk-metric/target/classes
+[INFO] Compiling 1 source file to /home/user/reviews/ori/ori-risk-metric/target/classes
 [INFO]
 [INFO] ----------------------< com.syntifi.ori:ori-api >-----------------------
 [INFO] Building ori-api 0.2.0-SNAPSHOT                                   [4/11]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO]
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ ori-api ---
-[INFO] Deleting /home/abahmane/reviews/ori/ori-api/target
+[INFO] Deleting /home/user/reviews/ori/ori-api/target
 [INFO]
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ ori-api ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -153,17 +153,17 @@ Node.js (>=14.0.0)
 [INFO]
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ori-api ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 30 source files to /home/abahmane/reviews/ori/ori-api/target/classes
+[INFO] Compiling 30 source files to /home/user/reviews/ori/ori-api/target/classes
 [INFO]
 [INFO] ---------------------< com.syntifi.ori:ori-client >---------------------
 [INFO] Building ori-client 0.1.0-SNAPSHOT                                [5/11]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO]
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ ori-client ---
-[INFO] Deleting /home/abahmane/reviews/ori/ori-client/target
+[INFO] Deleting /home/user/reviews/ori/ori-client/target
 [INFO]
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (prepare-agent) @ ori-client ---
-[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/abahmane/reviews/ori/ori-client/target/jacoco.exec
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/user/reviews/ori/ori-client/target/jacoco.exec
 [INFO]
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ ori-client ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -172,7 +172,7 @@ Node.js (>=14.0.0)
 [INFO]
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ori-client ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 3 source files to /home/abahmane/reviews/ori/ori-client/target/classes
+[INFO] Compiling 3 source files to /home/user/reviews/ori/ori-client/target/classes
 [INFO]
 [INFO] ---------------------< com.syntifi.ori:ori-chains >---------------------
 [INFO] Building ori-chains 0.1.0-SNAPSHOT                                [6/11]
@@ -181,17 +181,17 @@ Node.js (>=14.0.0)
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ ori-chains ---
 [INFO]
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (prepare-agent) @ ori-chains ---
-[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/abahmane/reviews/ori/ori-chains/target/jacoco.exec
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/user/reviews/ori/ori-chains/target/jacoco.exec
 [INFO]
 [INFO] ---------------< com.syntifi.ori.chains:ori-chain-base >----------------
 [INFO] Building ori-chain-base 0.1.0-SNAPSHOT                            [7/11]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO]
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ ori-chain-base ---
-[INFO] Deleting /home/abahmane/reviews/ori/ori-chains/ori-chain-base/target
+[INFO] Deleting /home/user/reviews/ori/ori-chains/ori-chain-base/target
 [INFO]
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (prepare-agent) @ ori-chain-base ---
-[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/abahmane/reviews/ori/ori-chains/ori-chain-base/target/jacoco.exec
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/user/reviews/ori/ori-chains/ori-chain-base/target/jacoco.exec
 [INFO]
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ ori-chain-base ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -200,17 +200,17 @@ Node.js (>=14.0.0)
 [INFO]
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ori-chain-base ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 16 source files to /home/abahmane/reviews/ori/ori-chains/ori-chain-base/target/classes
+[INFO] Compiling 16 source files to /home/user/reviews/ori/ori-chains/ori-chain-base/target/classes
 [INFO]
 [INFO] ------------------< com.syntifi.ori.chains:ori-cspr >-------------------
 [INFO] Building ori-cspr 0.1.0-SNAPSHOT                                  [8/11]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO]
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ ori-cspr ---
-[INFO] Deleting /home/abahmane/reviews/ori/ori-chains/ori-cspr/target
+[INFO] Deleting /home/user/reviews/ori/ori-chains/ori-cspr/target
 [INFO]
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (prepare-agent) @ ori-cspr ---
-[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/abahmane/reviews/ori/ori-chains/ori-cspr/target/jacoco.exec
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/user/reviews/ori/ori-chains/ori-cspr/target/jacoco.exec
 [INFO]
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ ori-cspr ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -219,17 +219,17 @@ Node.js (>=14.0.0)
 [INFO]
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ori-cspr ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 6 source files to /home/abahmane/reviews/ori/ori-chains/ori-cspr/target/classes
+[INFO] Compiling 6 source files to /home/user/reviews/ori/ori-chains/ori-cspr/target/classes
 [INFO]
 [INFO] -------------------< com.syntifi.ori.chains:ori-eth >-------------------
 [INFO] Building ori-eth 0.1.0-SNAPSHOT                                   [9/11]
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO]
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ ori-eth ---
-[INFO] Deleting /home/abahmane/reviews/ori/ori-chains/ori-eth/target
+[INFO] Deleting /home/user/reviews/ori/ori-chains/ori-eth/target
 [INFO]
 [INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (prepare-agent) @ ori-eth ---
-[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/abahmane/reviews/ori/ori-chains/ori-eth/target/jacoco.exec
+[INFO] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/user/reviews/ori/ori-chains/ori-eth/target/jacoco.exec
 [INFO]
 [INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ ori-eth ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -238,7 +238,7 @@ Node.js (>=14.0.0)
 [INFO]
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ori-eth ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 6 source files to /home/abahmane/reviews/ori/ori-chains/ori-eth/target/classes
+[INFO] Compiling 6 source files to /home/user/reviews/ori/ori-chains/ori-eth/target/classes
 [INFO]
 [INFO] --------------------< com.syntifi.ori:ori-frontend >--------------------
 [INFO] Building ori-frontend 0.1.0-SNAPSHOT                             [10/11]
@@ -271,7 +271,7 @@ Run `npm audit` for details.
 Creating an optimized production build...
 Compiled with warnings.
 
-Failed to parse source map from '/home/abahmane/reviews/ori/ori-frontend/src/css/vis-network.css.map' file: Error: ENOENT: no such file or directory, open '/home/abahmane/reviews/ori/ori-frontend/src/css/vis-network.css.map'
+Failed to parse source map from '/home/user/reviews/ori/ori-frontend/src/css/vis-network.css.map' file: Error: ENOENT: no such file or directory, open '/home/user/reviews/ori/ori-frontend/src/css/vis-network.css.map'
 
 Search for the keywords to learn more about each warning.
 To ignore, add // eslint-disable-next-line to the line before.
