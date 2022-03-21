@@ -78,7 +78,7 @@ Node.js (>=14.0.0)
 
 ```
 
-![60-3 clean-compile] (assets/build.md "build")
+[60-3 clean-compile](assets/build.md "build")
 
 
 
@@ -90,7 +90,7 @@ Node.js (>=14.0.0)
 
 Output: 
 
-![60-3 package]  (assets/build_libs.md "build_libs")
+[60-3 package](assets/build_libs.md "build_libs")
 
 
 3. Create a docker network ori
