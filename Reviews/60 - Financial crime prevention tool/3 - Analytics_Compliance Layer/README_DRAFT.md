@@ -535,11 +535,7 @@ The reviewer was able to add a new 'Pie' chart reflecting the count of transacti
 
 
 ## Overall Impression of usage testing
-
-While the Acceptance Criteria of "Have a working GraphQL API to successfully query all transactions from/to a given wallet to easily run the API" is minimally
-met, and the project provides additional functionality in a REST API and includes helpful testing/configuration UIs, the project falls severely
-short in providing the necessary documentation required to properly set up and run the project, or to properly use the provided APIs. Those APIs where for the usage
-parameters were correctly inferred by Reviewer and thus tested, operated correctly.
+TODO
 
 Requirement | Finding
 ------------ | -------------
