@@ -332,9 +332,8 @@ Unit Tests - Additional path tests | PASS
 
 ### Code Documentation
 
-TODO
+A commendable effort has been made to document the project code following the remarks made on this point in the reviews of milestone 1. The code is now overall well documented now and almost all classes and critical functions have acceptable code-level documentation.
 
-The code in the project is essentially comment/documentation free, other than in the AMLRules.java class
 
 Requirement | Finding
 ------------ | -------------
