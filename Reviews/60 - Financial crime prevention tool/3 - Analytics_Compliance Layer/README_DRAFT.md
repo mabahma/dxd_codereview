@@ -186,6 +186,9 @@ docker_dashboard_1   sh ./docker/entrypoint.sh   Up (healthy)   0.0.0.0:8088->80
 
 
 
+
+### Testing the dashboard
+
 This review focuses on the dashboard part.
 The dashboard module uses the Apache Superset which is an open  data visualization and  exploration platform.
 It is used here to have data analysis on transactions on the Casper blockchain. These analysis can be used for
