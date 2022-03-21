@@ -76,7 +76,6 @@ Node.js (>=14.0.0)
 ```bash
 ~/reviews/ori$ sudo ./mvnw clean compile
 
-```
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Build Order:
