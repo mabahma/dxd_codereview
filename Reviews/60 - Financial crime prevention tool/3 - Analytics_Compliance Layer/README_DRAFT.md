@@ -74,7 +74,7 @@ Node.js (>=14.0.0)
 1. Test and build the project on an Ubuntu 20.04 cloud server
 
 ```bash
-~/reviews/ori$ sudo ./mvnw clean compile
+~/reviews/ori$ ./mvnw clean compile
 
 ```
 
@@ -85,7 +85,7 @@ Output : [60-3 clean-compile](assets/build.md "build")
 2. Build libs, jars and images
 
 ```bash
-~/reviews/ori$ sudo ./mvnw package -DskipTests
+~/reviews/ori$ ./mvnw package -DskipTests
 ```
 
 Output:  [60-3 package](assets/build_libs.md "build_libs")
@@ -317,7 +317,7 @@ The tests can be executed from the console and cover both positive and negative 
 
 
 ```bash
-~/reviews/ori$ sudo ./mvnw test
+~/reviews/ori$ ./mvnw test
 ```
 
 Output : [60-3 unit_test](assets/unit_tests.md "tests")
