@@ -303,7 +303,7 @@ It would also be desirable to mention the use of 'Apache Superset' platform in t
 Requirement | Finding
 ------------ | -------------
 Project builds and runs without errors | PASS
-Documentation provides sufficient installation/execution instructions | PASS
+Documentation provides sufficient installation/execution instructions | PASS with Notes
 Project functionality meets/exceeds acceptance criteria and operates without error | PASS 
 
 
