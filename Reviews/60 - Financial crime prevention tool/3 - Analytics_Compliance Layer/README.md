@@ -192,7 +192,7 @@ This review focuses on the dashboard part.
 The dashboard module uses the Apache Superset which is an open  data visualization and  exploration platform.
 It is used here to have data analysis on transactions on the Casper blockchain. These analysis can be used for
 coin tracing for example (used in AML).
-the dashboaad is currently limited to transactions analysis but can be extended to explore other datas  such as blocks, validators etc ...
+the dashboard is currently limited to transactions analysis but can be extended to explore other datas  such as blocks, validators etc ...
 In this review,  we will carry out test scenarios on the following dashboard features :
 
 - Transactions Monitor
