@@ -295,7 +295,7 @@ The reviewer was able to add a new 'Pie' chart reflecting the count of transacti
 
 
 ## Overall Impression of usage testing
-TODO
+The reviewer was able to build the project following the instructions given in the README file on the repository. The documentation provides sufficient installation/build instructions.
 
 Requirement | Finding
 ------------ | -------------
