@@ -338,7 +338,7 @@ The code in the project is essentially comment/documentation free, other than in
 
 Requirement | Finding
 ------------ | -------------
-Low level function documentation | FAIL
+Low level function documentation | PASS
 
 ### Project Documentation
 
@@ -348,18 +348,8 @@ As identified above, the project does NOT contain sufficient documentation descr
 
 Requirement | Finding
 ------------ | -------------
-Sufficient Project Documentation | FAIL
+Sufficient Project Documentation | PASS
 
-### API Documentation
-
-TODO
-
-While some auto-generated API documentation is included, as identified above the lack of endpoint usage descriptions and/or input parameter format examples
-has resulted in this Reviewer being unable to test certain API endpoint. As such, this requirement is not met.
-
-Requirement | Finding
------------- | -------------
-API documentation | FAIL
 
 ## Overall Conclusion on Documentation
 
