@@ -295,8 +295,8 @@ The reviewer was able to add a new 'Pie' chart reflecting the count of transacti
 
 
 ## Overall Impression of usage testing
-The reviewer was able to build and the dashboard component following the instructions given in the README file on the repository.
-**However, the OP is also encourages to add examples of data analyzes with this tool in the project. This will allow a very quick understanding of the objective of the module.
+The reviewer was able to build the project and the dashboard component following the instructions given in the README files on the repository.
+**However, the OP is encouraged to add examples of data analysis performed when using the dashboard in the module main page. This will allow a quick understanding of the objective of the module.
 It would also be desirable to mention the use of 'Apache Superset' platform in the project (with a link to the projet repository) and to add complete test scenarios in this module to allow any user to easily test the plateform**
 
 
